@@ -63,6 +63,7 @@
                         <a href="{{ url('/home') }}" class="btn btn-primary"><i class="fa fa-angle-left">
                             </i> Continue Shopping</a>
                         <button class="btn btn-danger">Checkout</button>
+                        <button class="btn btn-danger" href="/checkout">Checkout</button>
                     </td>
                 </tr>
             </tfoot>
