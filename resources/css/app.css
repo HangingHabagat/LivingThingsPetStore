@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    min-width: 375px;
+}
+
+footer {
+    margin: auto;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding-bottom: 2%;
+}
+
+.footer-menu {
+    width: 100vw;
+    margin: auto;
+    padding: 3%;
+}
+
+.footer h5 {
+    color: orange;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 10px;
+}
+.footer-menu ul {
+    list-style: none;
+    min-width: 150px;
+}
+
+.footer ul li {
+    margin: auto;
+}
+
+.footer ul li a {
+    color: inherit;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: beige;
+}
+
+.footer.fixed-bottom {
+    padding: 0;
+}
+
+.footer .copyright {
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.copyright {
+    display: flexbox;
+    justify-content: flex-end;
+    position: fixed-bottom;
+    color: aliceblue;
+}
+
+.footer .socialmedia {
+    color: white;
+    text-align: center;
+}
+
+.footer .socialmedia ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .socialmedia ul li a {
+    display: block;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #13547a;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+.footer .socialmedia ul li a:hover {
+    color: #fff;
+}
+
+.footer .socialmedia ul li a.facebook:hover {
+    background: #3b5998;
+}
+
+.footer .socialmedia ul li a.twitter:hover {
+    background: #1da1f2;
+}
+
+.footer .socialmedia ul li a.instagram:hover {
+    background: #c32aa3;
+}
+
+.footer .socialmedia ul li a.whatsapp:hover {
+    background: #25d366;
+}
+
+.footer .sm-logo {
+    max-width: 375px;
+    margin: auto;
+}
+
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart-thumbnail .card {
+    min-width: 150px;
+    width: 150px;
+    max-width: 300px;
+    height: 300px;
+}
+
+.row .card {
+    hmin-width: 150px;
+    width: 200px;
+    max-width: 300px;
+    height: 500px;
+}
+.td {
+    text-align: center;
+    color: orange;
+}
+
+.checkout .card {
+    background-color: #1da1f2;
+    min-width: 300px;
+    width: 700px;
+    max-width: 50vw;
+    height: 100%;
+    margin: auto;
+}
+
+.cart-summary .card {
+    background-color: #c32aa3;
+    min-width: 200px;
+    width: 300px;
+    max-width: 400px;
+    height: auto;
+}
+
+.cart-summary .card .card-body {
+    background-color: #25d366;
+    margin: auto;
+    
+}
+
+.checkout img {
+    width: auto;
+}
